@@ -176,7 +176,7 @@ export function ChatWidget() {
 
       <button
         onClick={() => setOpen(!open)}
-        className={`fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg transition-all duration-200 hover:scale-105 active:scale-95 sm:bottom-8 sm:right-8 ${open ? 'bg-gunmetal text-white' : 'bg-navy text-white'}`}
+        className={`fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg transition-all duration-200 hover:scale-105 active:scale-95 sm:bottom-8 sm:right-8 ring-2 ring-white/30 ${open ? 'bg-gunmetal text-white' : 'bg-steel text-white'}`}
         aria-label={open ? 'Close chat' : 'Open product assistant'}
       >
         {open ? <X size={22} /> : <MessageCircle size={22} />}
