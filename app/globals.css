@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-white font-body text-gunmetal antialiased;
+    @apply bg-white font-body text-gunmetal antialiased overflow-x-hidden;
   }
 
   h1,
