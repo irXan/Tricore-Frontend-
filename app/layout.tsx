@@ -4,6 +4,7 @@ import './globals.css';
 import { Footer } from '@/components/layout/Footer';
 import { Navbar } from '@/components/layout/Navbar';
 import { LoaderScreen } from '@/components/ui/LoaderScreen';
+import { ChatWidget } from '@/components/ui/ChatWidget';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat', display: 'swap' });
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <ChatWidget />
       </body>
     </html>
   );
