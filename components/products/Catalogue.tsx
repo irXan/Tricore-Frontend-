@@ -37,7 +37,7 @@ export function Catalogue() {
 
   return (
     <section className="section-space bg-offwhite">
-      <div className="relative overflow-hidden bg-steel -mx-5 sm:-mx-8 lg:-mx-10 -mt-16 md:-mt-24 mb-12 py-16 md:py-24">
+      <div className="relative overflow-hidden bg-navy -mx-5 sm:-mx-8 lg:-mx-10 -mt-16 md:-mt-24 mb-12 py-16 md:py-24">
         <div className="blueprint-grid absolute inset-0" />
         <div className="page-shell relative max-w-3xl">
           <p className="eyebrow text-slate-200">Product catalogue</p>
