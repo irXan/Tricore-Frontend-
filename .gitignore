@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+tsconfig.tsbuildinfo
+
+# Secrets and local environment overrides
+.env
+.env.local
+.env.*
+!.env.example
+
+# Runtime artifacts
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

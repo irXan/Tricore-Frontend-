@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">TriCore Surgical product placeholder</title>
+  <desc id="desc">A neutral clinical equipment placeholder graphic.</desc>
+  <rect width="720" height="520" fill="#F4F6F8"/>
+  <path d="M308 125h104v85h85v100h-85v85H308v-85h-85V210h85z" fill="#3E7CB1"/>
+  <text x="360" y="460" text-anchor="middle" fill="#16324F" font-family="Arial, sans-serif" font-size="27" font-weight="700">TRICORE SURGICAL</text>
+</svg>
+
